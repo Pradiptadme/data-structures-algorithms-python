@@ -33,5 +33,5 @@ print("Expenses at the end of June:",exp) # [2200, 2350, 2600, 2130, 2190, 1980]
 # 5. You returned an item that you bought in a month of April and
 # got a refund of 200$. Make a correction to your monthly expense list
 # based on this
-exp[3] = exp[3] - 200
+exp[3] = exp[3] + 200
 print("Expenses after 200$ return in April:",exp) # [2200, 2350, 2600, 1930, 2190, 1980]
